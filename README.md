@@ -1,2 +1,2 @@
-# hexlet-introduction-to-programmin
+# hexlet-introduction-to-programming
 Конспект лекций (основные моменты которые необходимо запомнить) с курса - Введение в программирование Hexlet.
