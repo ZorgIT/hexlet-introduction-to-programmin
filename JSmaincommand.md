@@ -114,3 +114,36 @@ const factorial = (n) => {
     }
 }
 const answer = factorial(3);
+
+Пример2 (итеративный подсчет факториала)
+Итеративный процесс
+1. Определить начальное состояние
+2. ПРоеверить базовый случай
+3. Определить новое состояние
+4. Повторить шаг 2.
+const factorial = (n) => {
+    const iter = (counter, acc)=> {
+        if (counter ===1) { // 2. Проверка базовго состояния
+            return acc;
+        }
+        return iter (counter-1, counter*acc); // 3. Определить новое состояния
+    }
+    return iter(n,1);// 1. определение базового состояния
+}
+
+const smallestDivisor = (num) => {
+  // BEGIN (write your solution here)
+  //if (num%2===0) return 2;
+  //else if (num===1) return num;
+ // let y=1;
+  const funcNod=(num1,y) => {
+    if (num1%y===0) {
+      return y;
+    } else {
+      return funcNod(num1,y+1);
+    }
+  }
+  if (num===1) return 1;
+  return funcNod(num,2);
+  // END
+};
