@@ -147,3 +147,9 @@ const smallestDivisor = (num) => {
   return funcNod(num,2);
   // END
 };
+
+ЦИКЛЫ ============================================================================== 
+Цикл While
+while (condition) {
+    do_stuff;
+}
