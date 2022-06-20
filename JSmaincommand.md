@@ -154,6 +154,24 @@ while (condition) {
     do_stuff;
 }
 
+for (let i =1; i <=n; i++) {
+    do_stuff
+}
+
+switch(num) {
+    case 1: //if (num===1)
+        answer='One';
+        break;
+    
+    case 2: //if (num===2)
+        answer = 'Two';
+        break;
+    
+    default:
+        answer='Nothing';
+        break;
+}
+
 СТРОКИ ==============================================================================
 СТРОКИ В JS immutable НЕИЗМЕНЯЕМЫЕ. Любые функции примененые к строке возвращают новую строку.
 Экранирование 
@@ -170,3 +188,15 @@ str.toUpparcase();
 в JS есть обратный тик `` (backticks) используется для интерполяции строк.
 `His name was ${name} and his age was ${a + b}`
 
+result *= counter; // result= result*counter
+result += counter; // result= result+counter
+result -= counter; // result= result-counter
+result %= counter; // result= result%counter 
+
+counter ++ инкремент
+counter -- декремент
+принципиально где стои кремент О_О 
+++a - вначале увеличить потом передать значение 
+a++ - вначале передать значение, потом увеличить.
+
+Ц
